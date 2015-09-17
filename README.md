@@ -1,7 +1,7 @@
 ##Here is a sub-generator of [gulpfile-generator](https://github.com/bnjjj/gulpfile-generator)
 #Usage
 + It's a submodules of [gulpfile-generator](https://github.com/bnjjj/gulpfile-generator) so if you want to try or change this sub-generator you have to download gulpfile-generator and develop into the submodule jshint
-+ It will create a jshint to lint your javascript
++ It will create a jshint task to lint your javascript
 + For more information about configuration click [here](https://www.npmjs.com/package/gulp-jshint)
 
 #Tasks generated
