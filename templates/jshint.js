@@ -9,6 +9,7 @@ gulp.task('jshint', function () {
 });
 
 gulp.task('jshint:watch', function () {
+  gulp.start('jshint');
   gulp.watch([<% var tab = srcLint.split(','); for(var i = 0; i < tab.length; i++) { %>'<%=tab[i].replace(' ', '')%>'<% if (i !== tab.length - 1) {%>,<% } %>
     <%}%>], ['jshint']);
 });
